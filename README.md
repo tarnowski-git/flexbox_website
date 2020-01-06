@@ -13,7 +13,7 @@ Resposnive CSS3 flexbox web desing project. Flexbox page layout for demonstrait 
 
 ## Sources
 
-This game is based on [Divinector](https://www.youtube.com/watch?v=-drcStMYOcM) Tutorial.
+This project is based on [Divinector](https://www.youtube.com/watch?v=-drcStMYOcM) Tutorial.
 
 ## License
 
