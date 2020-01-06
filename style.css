@@ -4,6 +4,8 @@
     /* The box-sizing property defines how the width and height of an 
     element are calculated: should they include padding and borders, or not. */
     box-sizing: border-box;
+    /* border for divs testing */
+    /* border: 1px #cccccc solid; */
 }
 
 html {
@@ -93,6 +95,7 @@ section {
     display: -ms-flex;
     display: -o-flex;
     display: flex;
+    /* make a flex column */
     flex-direction: column;
     align-items: center;
     padding: 110px 100px;
@@ -185,11 +188,13 @@ section p {
 /* about area */
 ul.about-content {
     width: 100%;
+    /* flex - make li side by side */
     display: -webkit-flex;
     display: -moz-flex;
     display: -ms-flex;
     display: -o-flex;
     display: flex;
+    /* gets div push down to the secound row if not match */
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -204,11 +209,13 @@ ul.about-content {
 }
 
 .about-left {
+    /* like width: 40% */
     flex-basis: 40%;
     background-image: url(img/warsaw2.jpg);
 }
 
 .about-right {
+    /* like width: 60% */
     flex-basis: 60%;
 }
 
@@ -255,11 +262,13 @@ ul.about-content {
 
 ul.services-content {
     width: 100%;
+    /* flex - make boxes  side by side*/
     display: -webkit-flex;
     display: -moz-flex;
     display: -ms-flex;
     display: -o-flex;
     display: flex;
+    /* gets div push down to the secound row if gets smaller */
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -310,6 +319,7 @@ ul.contact-content {
     display: -ms-flex;
     display: -o-flex;
     display: flex;
+    /* gets div push down to the secound row if gets smaller */
     flex-wrap: wrap;
     justify-content: center;
 }
